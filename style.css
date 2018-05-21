@@ -1,3 +1,8 @@
+* {margin:0;padding:0;}
+.container {
+    width:400px;
+    margin:0 auto;
+}
 .window {
     width:400px;
     height:300px;
@@ -7,4 +12,9 @@
 .images {
     display:flex;
     transition:all 1s;
+}
+.controls {
+}
+#previous,#next {
+    font-size:22px;
 }
