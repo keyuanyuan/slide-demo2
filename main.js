@@ -6,6 +6,7 @@ let current = 0
 makeFakeSlides()
 $slides.css({transform: 'translateX(-400px)'})
 bindEvents()
+//上下页
 $('#previous').on('click',function() {
     goToSlide(current-1)
 })

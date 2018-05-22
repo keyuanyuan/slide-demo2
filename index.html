@@ -16,18 +16,26 @@
                 <img src="./img/图3.jpg" alt="" width="400px" height="300px">
             </div>
         </div>
-        <div class="controls" id="controls" style="text-align:center">
-            <span id="previous"><</span>
-            <span id="next">></span>
+        <div class="buttonWrapper">
+            <div class="controls" id="controls">
+                <svg class="icon" id="previous" aria-hidden="true">
+                    <use xlink:href="#icon-previous"></use>
+                </svg>
+                <svg class="icon" id="next" aria-hidden="true">
+                    <use xlink:href="#icon-next"></use>
+                </svg>
+            </div>
+            <div class="buttons" id="buttons" style="text-align:center">
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+            </div>
         </div>
-        <div class="buttons" id="buttons" style="text-align:center">
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-        </div>
+        
     </div>
     <script src="./jquery-3.3.1.min.js"></script>
     <script src="./main.js"></script>
+    <script src="https://at.alicdn.com/t/font_674813_0zkwlhzyocgqr529.js"></script>
 </body>
 
 </html>
